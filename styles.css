@@ -1,0 +1,112 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-container {
+  padding: 20rem 0;
+  /* padding: 10rem 0 20rem 0; */
+  background-image: url(/Images/cases\ copy.jpg);
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.header-container {
+  background-color: rgb(221, 221, 221);
+  padding: 3rem 2rem;
+  margin: 3rem 2rem;
+}
+.main-header {
+  font-size: 5rem;
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: 0 15rem;
+}
+.fade-in-text {
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-top {
+  position: relative;
+  animation: animatetop 1.4s;
+}
+
+@keyframes animatetop {
+  from {
+    /* top: -300px; */
+    top: 200px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main-header {
+    font-size: 4rem;
+    margin: 0 9rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main-header {
+    font-size: 3rem;
+    margin: 0 3rem;
+  }
+}
