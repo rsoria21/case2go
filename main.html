@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <title>Case2Go</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a class="nav-link" href="#">Case2Go</a></li>
+        <li class="item"><a class="nav-link" href="#">Home</a></li>
+        <li class="item"><a class="nav-link" href="#">About</a></li>
+        <li class="item has-submenu">
+          <a class="nav-link" tabindex="0">Services</a>
+          <ul class="submenu">
+            <li class="subitem">
+              <a class="nav-link" href="#">Phone Cases</a>
+            </li>
+            <li class="subitem">
+              <a class="nav-link" href="#">Other Cases</a>
+            </li>
+            <li class="subitem"><a class="nav-link" href="#">Chargers</a></li>
+            <li class="subitem">
+              <a class="nav-link" href="#">Screen protectors</a>
+            </li>
+          </ul>
+        </li>
+        <li class="item button"><a class="nav-link" href="#">Contact</a></li>
+        <li class="toggle">
+          <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <section class="header-section">
+      <div class="header-text-section">
+        <h1 class="header-text">
+          Los Mejores Cases <br />A Los Mejores Precios
+        </h1>
+      </div>
+    </section>
+    <section id="reviews">
+      <div class="slideshow-container">
+        <h2 class="slides-heading">SEASONAL</h2>
+        <!-- Full-width images with number and caption text -->
+        <div class="slides fade">
+          <img class="skill-image" src="/Images/case-blue.png" />
+          <div class="text">Azul</div>
+        </div>
+
+        <div class="slides fade">
+          <img class="skill-image" src="/Images/case-pink.png" />
+          <div class="text">Rosa!</div>
+        </div>
+
+        <div class="slides fade">
+          <img class="skill-image" src="/Images/case-gold.png" />
+          <div class="text">Dorado!</div>
+        </div>
+
+        <div class="slides fade">
+          <img class="skill-image" src="/Images/case-green.png" />
+          <div class="text">Verde!</div>
+        </div>
+
+        <div class="slides fade">
+          <img class="skill-image" src="/Images/case-clear.png" />
+          <div class="text">
+            Fantastic showcase of food by Chef Mike. Enjoy!
+          </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <!-- <br /> -->
+
+      <!-- The dots/circles -->
+      <div class="circles">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </section>
+    <script src="/script.js"></script>
+  </body>
+</html>
