@@ -473,3 +473,119 @@ nav {
 }
 
 /* SLIDES END */
+/* START BRANDS */
+.brands {
+  background-color: rgba(187, 182, 182, 0.418);
+  background-image: url(/Images/sidewalk.jpg);
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 18rem 8rem;
+}
+.skill-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+@media screen and (max-width: 850px) {
+  .brands {
+    margin: 11rem 0;
+  }
+  .skill-logo {
+    width: 15%;
+    margin: 20px 12px 50px;
+  }
+}
+/* END BRANDS */
+/* START CARDS */
+#main-cakes {
+  padding: 5rem 0 10rem 0;
+}
+
+.cakes-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.cakes-card {
+  width: 30%;
+  border-radius: 2rem;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.cakes-header {
+  text-align: center;
+  padding: 0 10px;
+  /* background: linear-gradient(to right, #065858, rgb(29, 29, 29)); */
+  color: #fff;
+}
+
+.main-cakes {
+  /* height: 12rem; */
+  /* height: 50%; */
+  width: 100%;
+  object-fit: cover;
+}
+
+.cakes-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: #3d3d3d;
+}
+
+.cakes-btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #292c2c, rgb(29, 29, 29));
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.cakes-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1100px) {
+  .cakes-card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .menu-header {
+    font-size: 1.5rem;
+  }
+  .main-cakes {
+    width: 100%;
+    object-fit: cover;
+  }
+  .cakes-container {
+    width: 100%;
+  }
+  .cakes-heading {
+    padding: 20px;
+    font-size: 30px;
+  }
+  .cakes-body {
+    padding: 5px 5px 25px 5px;
+    font-size: 0.75rem;
+  }
+  .cakes-card {
+    width: 30%;
+  }
+}
+/* END CARDS */
