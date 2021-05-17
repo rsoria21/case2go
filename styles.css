@@ -638,7 +638,7 @@ nav {
   justify-content: center;
   background-color: #161616;
   /* padding: 3rem 10rem; */
-  margin: 1.25rem 2.5rem;
+  margin: 1.25rem 1.5rem;
   width: 70%;
   /* height: 10%; */
   border-bottom-left-radius: 50px;
@@ -672,13 +672,24 @@ nav {
 @media screen and (max-width: 800px) {
   #other-section {
     padding: 3rem 0 12rem 0;
+    flex-direction: column;
   }
   .main-other-img {
-    width: 40%;
+    width: 55%;
     margin: 0 2.5rem 0 2.5rem;
   }
+  .other-card-section {
+    flex-direction: row;
+  }
+  .other-card {
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 50%;
+  }
   .other-card-img {
-    width: 55%;
+    width: 100%;
   }
   .other-card-text {
     font-size: 0.75rem;
@@ -726,7 +737,7 @@ nav {
   color: white;
 }
 .footer-link {
-  font-size: 1.75rem;
+  font-size: 1.05rem;
   margin: 0 1.5rem 0rem 1.5rem;
   text-decoration: none;
   color: #525252;
