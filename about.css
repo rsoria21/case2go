@@ -20,6 +20,10 @@ nav {
   color: white;
   text-decoration: none;
 }
+.greenTwo {
+  color: rgb(25, 163, 25);
+  font-size: 1.7rem;
+}
 .menu {
   margin: 0;
 }
@@ -228,7 +232,7 @@ nav {
   text-align: center;
 }
 .about-img {
-  width: 40%;
+  width: 50%;
   border-radius: 1.4rem;
 }
 .about-text {
@@ -254,6 +258,23 @@ nav {
   padding: 0.3rem 0 0.3rem 0;
   text-align: center;
   background-color: #1a1a1a;
+}
+.footer-logo {
+  position: absolute;
+  left: 10px;
+  right: 0;
+  width: 7rem;
+}
+@media screen and (max-width: 1200px) {
+  .footer-logo {
+    width: 6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer-logo {
+    width: 5.5rem;
+  }
 }
 
 .footer-text {
@@ -306,6 +327,7 @@ nav {
 @media screen and (max-width: 800px) {
   .footer-link {
     font-size: 0.75rem;
+    margin: 0 0.75rem 0rem 0.75rem;
   }
 }
 /* END FOOTER */

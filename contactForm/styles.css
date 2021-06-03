@@ -24,6 +24,9 @@ nav {
   color: rgb(25, 163, 25);
   font-size: 1.7rem;
 }
+.nav-logo {
+  width: 5%;
+}
 .menu {
   margin: 0;
 }
@@ -183,7 +186,16 @@ nav {
 }
 /* END NAVBAR */
 /* START HEADER */
-
+.header-section {
+  padding: 10rem 0;
+  /* padding: 10rem 0 20rem 0; */
+  background-image: url(/Images/cases\ copy.jpg);
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
 .case-header-section {
   padding: 10rem 0;
   /* padding: 10rem 0 20rem 0; */
@@ -195,6 +207,14 @@ nav {
   text-align: center;
 }
 
+.header-text {
+  color: #242a31;
+  background-color: rgba(187, 182, 182, 0.705);
+  font-size: 3.5rem;
+  text-decoration: underline 1px;
+  /* border-bottom: 1px solid black; */
+  margin: 0 12rem;
+}
 .cases-header-text {
   color: #242a31;
   background-color: rgba(187, 182, 182, 0.705);
@@ -203,6 +223,10 @@ nav {
   margin: 0 18rem;
 }
 @media screen and (max-width: 1100px) {
+  .header-text {
+    font-size: 3rem;
+    margin: 0 6rem;
+  }
   .cases-header-text {
     font-size: 3rem;
     margin: 0 9rem;
@@ -210,133 +234,136 @@ nav {
 }
 
 @media screen and (max-width: 850px) {
+  .header-text {
+    font-size: 2rem;
+    margin: 0 4rem;
+  }
   .cases-header-text {
     font-size: 2rem;
     margin: 0 6rem;
   }
 }
-
 /* END HEADER */
-/* START CARDS MENU */
-.cards-menu {
+/* Form Start */
+.container {
+  padding: 1.75rem 0;
+}
+.contact-section {
+  text-align: center;
+  background-color: rgba(33, 179, 94, 0.356);
+  border-radius: 2rem;
+  margin: 3rem 19rem 0 19rem;
+}
+.contact-logo {
+  width: 30%;
+}
+
+.contact-title {
+  text-align: center;
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+  text-align: center;
+  font-size: 32px;
+  /* line-height: 10px; */
+}
+
+.contact-title h2 {
+  font-size: 16px;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  padding-left: 12px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-section {
+    margin: 3rem 11rem 0 11rem;
+  }
+  .form-control {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact-section {
+    margin: 0;
+  }
+  .form-control {
+    width: 400px;
+  }
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+/* FORM END */
+
+/* START BRANDS */
+.brands {
+  background-color: rgba(187, 182, 182, 0.418);
+  background-image: url(/Images/holdingPhone.jpg);
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 8rem 8rem;
+}
+.skill-logo-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: black;
-  border-radius: 2rem;
-  width: 60%;
-  margin: 2rem auto 7rem auto;
-}
-.cards-menu-text {
-  color: #fff;
-  font-size: 1.5rem;
-  margin: 0 1rem;
-  transition: 0.3s;
-}
-.cards-menu-text:hover {
-  transform: scale(1.05);
-}
-/* END CARDS MENU */
-/* START CARDS */
-#main-card {
-  padding: 5rem 0 10rem 0;
+  align-items: center;
 }
 
-.card-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
+.skill-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
-
-.card-card {
-  width: 30%;
-  border-radius: 2rem;
-  margin-bottom: 50px;
-  transition: 0.3s;
-}
-
-.card-header {
-  text-align: center;
-  padding: 0 10px;
-  /* background: linear-gradient(to right, #065858, rgb(29, 29, 29)); */
-  color: #fff;
-}
-
-.main-card {
-  /* height: 12rem; */
-  /* height: 50%; */
-  width: 100%;
-  object-fit: cover;
-}
-
-.card-body {
-  padding: 30px 20px;
-  text-align: center;
-  font-size: 2rem;
-  color: #3d3d3d;
-}
-
-.card-btn {
-  display: block;
-  color: #fff;
-  text-align: center;
-  background: linear-gradient(to right, #292c2c, rgb(29, 29, 29));
-  margin-top: 30px;
-  text-decoration: none;
-  padding: 10px 5px;
-}
-
-.card-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-}
-
-.brands-btn {
-  display: block;
-  color: #fff;
-  text-align: center;
-  border-radius: 2rem;
-  background: linear-gradient(to right, #292c2c, rgb(29, 29, 29));
-  margin: 1.875rem 15rem 1.875rem 15rem;
-  text-decoration: none;
-  padding: 10px 5px;
-}
-
-@media screen and (max-width: 1100px) {
-  .card-card {
-    width: 40%;
+@media screen and (max-width: 850px) {
+  .brands {
+    margin: 11rem 0;
+  }
+  .skill-logo {
+    width: 15%;
+    margin: 20px 12px 50px;
   }
 }
+/* END BRANDS */
 
-@media screen and (max-width: 700px) {
-  .menu-header {
-    font-size: 1.5rem;
-  }
-  .main-card {
-    width: 100%;
-    object-fit: cover;
-  }
-  .card-container {
-    width: 100%;
-  }
-  .card-heading {
-    padding: 20px;
-    font-size: 30px;
-  }
-  .card-body {
-    padding: 5px 5px 25px 5px;
-    font-size: 0.75rem;
-  }
-  .card-card {
-    width: 30%;
-  }
-  .brands-btn {
-    margin: 1.875rem 7rem 1.875rem 7rem;
-    padding: 10px 5px;
-  }
-}
-/* END CARDS */
 /* START FOOTER */
 #footer {
   padding: 0.3rem 0 0.3rem 0;

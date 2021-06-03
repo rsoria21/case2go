@@ -20,6 +20,13 @@ nav {
   color: white;
   text-decoration: none;
 }
+.greenTwo {
+  color: rgb(25, 163, 25);
+  font-size: 1.7rem;
+}
+.nav-logo {
+  width: 5%;
+}
 .menu {
   margin: 0;
 }
@@ -190,16 +197,15 @@ nav {
   background-size: cover;
   text-align: center;
 }
-.case-header-section {
+/* .case-header-section {
   padding: 10rem 0;
-  /* padding: 10rem 0 20rem 0; */
   background-image: url(/Images/cases\ copy.jpg);
   justify-content: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
-}
+} */
 
 .header-text {
   color: #242a31;
@@ -237,7 +243,6 @@ nav {
     margin: 0 6rem;
   }
 }
-
 /* END HEADER */
 
 /* SLIDES START */
@@ -397,7 +402,7 @@ nav {
 /* START BRANDS */
 .brands {
   background-color: rgba(187, 182, 182, 0.418);
-  background-image: url(/Images/sidewalk.jpg);
+  background-image: url(/Images/holdingPhone.jpg);
   justify-content: center;
   background-repeat: no-repeat;
   background-position: center;
@@ -454,6 +459,8 @@ nav {
 .main-cakes {
   /* height: 12rem; */
   /* height: 50%; */
+  margin-top: 5px;
+  border-radius: 2rem;
   width: 100%;
   object-fit: cover;
 }
@@ -557,6 +564,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: #161616;
   /* padding: 3rem 10rem; */
   margin: 1.25rem 1.5rem;
@@ -620,11 +628,28 @@ nav {
   }
 }
 /* END OTHER */
-/* footer */
+/* START FOOTER */
 #footer {
   padding: 0.3rem 0 0.3rem 0;
   text-align: center;
   background-color: #1a1a1a;
+}
+.footer-logo {
+  position: absolute;
+  left: 10px;
+  right: 0;
+  width: 7rem;
+}
+@media screen and (max-width: 1200px) {
+  .footer-logo {
+    width: 6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer-logo {
+    width: 5.5rem;
+  }
 }
 
 .footer-text {
@@ -677,6 +702,7 @@ nav {
 @media screen and (max-width: 800px) {
   .footer-link {
     font-size: 0.75rem;
+    margin: 0 0.75rem 0rem 0.75rem;
   }
 }
 /* footer end */

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/contactForm/styles.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/f30cc13ab0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="/Images/favicon.png" />
+    <title>contact form</title>
+  </head>
+  <body>
+    <!-- NAV START -->
+    <nav>
+      <ul class="menu">
+        <li class="logo">
+          <a class="nav-link" href="/index.html"
+            >Case<span class="greenTwo">2</span>Go</a
+          >
+        </li>
+        <li class="item"><a class="nav-link" href="/index.html">Home</a></li>
+        <li class="item"><a class="nav-link" href="/about.html">About</a></li>
+        <li class="item has-submenu">
+          <a class="nav-link" tabindex="0">Shop</a>
+          <ul class="submenu">
+            <li class="subitem">
+              <a class="nav-link" href="/phonecases.html">Phone Cases</a>
+            </li>
+            <!-- <li class="subitem">
+                  <a class="nav-link" href="#">Other Cases</a>
+                </li> -->
+            <!-- <li class="subitem"><a class="nav-link" href="#">Chargers</a></li> -->
+            <!-- <li class="subitem">
+                  <a class="nav-link" href="#">Screen protectors</a>
+                </li> -->
+          </ul>
+        </li>
+        <li class="item button">
+          <a class="nav-link" href="/contactForm/contact.html">Contact</a>
+        </li>
+        <li class="toggle">
+          <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- END NAV -->
+    <!-- START HEADER -->
+    <section class="header-section">
+      <div class="header-text-section">
+        <h1 class="header-text">Contact</h1>
+      </div>
+    </section>
+    <!-- END HEADER -->
+    <!-- START CONTACT FORM -->
+    <section class="container">
+      <div class="contact-section">
+        <div class="contact-title">
+          <img
+            class="contact-logo"
+            src="/Images/logonobckgrndname.png"
+            alt=""
+          />
+          <!-- <h1>Comunicarse</h1> -->
+          <h2>Estamos para ayudar</h2>
+        </div>
+
+        <div class="contact-form">
+          <form id="contact-form" action="https://" method="POST">
+            <input
+              type="email"
+              name="email"
+              placeholder="Tu Ubicación"
+              class="email form-control"
+            />
+            <br />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Tu Nombre"
+              class="subject form-control"
+            />
+            <br />
+
+            <textarea
+              name="message"
+              placeholder="Case Number y Cantidad"
+              rows="4"
+              class="message form-control"
+            ></textarea>
+            <br />
+
+            <div class="status"></div>
+            <!-- <button type="submit" class="submit form-control">Send</button> -->
+            <input
+              type="submit"
+              class="form-control submit"
+              value="SEND MESSAGE"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACT FORM  -->
+    <!-- START BRANDS -->
+    <section class="brands-section">
+      <div class="brands">
+        <div class="skill-logo-container">
+          <img class="skill-logo" src="/Images/Huawei-Logo.png" alt="Huawei" />
+          <img class="skill-logo" src="/Images/samsung-logo.png" alt="git" />
+          <img
+            class="skill-logo"
+            src="/Images/motorola-logo.png"
+            alt="motorola"
+          />
+          <img class="skill-logo" src="/Images/zte-logo.png" alt="ZTE" />
+          <img
+            class="skill-logo"
+            src="/Images/Apple-Logo.png"
+            alt="Apple logo"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- END BRAND -->
+    <!-- START FOOTER -->
+    <section id="footer">
+      <footer>
+        <a href="/index.html">
+          <img
+            class="footer-logo"
+            src="/Images/logonobckgrndname.png"
+            alt="case2go logo"
+          />
+        </a>
+
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <div class="footer-links-container">
+          <a class="footer-link" href="/index.html">HOME</a>
+          <a class="footer-link" href="/contactForm/contact.html">CONTACT</a>
+          <a class="footer-link" href="/about.html">ABOUT</a>
+          <a class="footer-link" href="/phonecases.html">SHOP</a>
+        </div>
+        <h4 class="footer-text">
+          &copy Case2go.MX 2021 Made by
+          <a class="soria-link" href="https://ricksoria.com/" target="_blank"
+            >RickSoria</a
+          >
+        </h4>
+      </footer>
+    </section>
+    <!-- END FOOTER -->
+    <!-- Script -->
+    <script src="/contactForm/script.js"></script>
+  </body>
+</html>
